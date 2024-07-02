@@ -1,0 +1,26 @@
+#no-csdn-btn{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 12px;
+    bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    border-radius: 50%;
+    color: #fff;
+    user-select: none;
+    cursor: pointer;
+    z-index: 303;
+
+    &>div{
+        text-align: center;
+        line-height: 1.2em;
+    }
+
+    &.open{
+        background: #f2f3fe;
+        color: #000;
+    }
+}
